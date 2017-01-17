@@ -37,7 +37,7 @@ public class Board extends JPanel implements ActionListener {
 
     /**
      * {@inheritDoc}
-     * 
+     * evenement en cas de touche pressée
      * @see java.awt.event.KeyAdapter#keyPressed(java.awt.event.KeyEvent)
      */
     @Override
@@ -47,6 +47,7 @@ public class Board extends JPanel implements ActionListener {
         return;
       }
 
+      // récupération de la touche concernée
       final int keycode = e.getKeyCode();
 
       // Gestion de la pause
