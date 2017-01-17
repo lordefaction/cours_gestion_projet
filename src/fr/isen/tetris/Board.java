@@ -36,7 +36,7 @@ public class Board extends JPanel implements ActionListener {
 
     /**
      * {@inheritDoc}
-     * evenement en cas de touche pressée
+     * interface de gestion des évenements clavier
      * @see java.awt.event.KeyAdapter#keyPressed(java.awt.event.KeyEvent)
      */
     @Override
