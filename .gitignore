@@ -1,0 +1,8 @@
+# repertoires à ignorer
+/bin/
+/lib/
+
+# fichiers à ignorer lors des commit
+.classpath
+.project
+
